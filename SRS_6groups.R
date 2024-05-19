@@ -2,7 +2,7 @@
 ##Interpenetrating subsamples for SRS
 ###Interpenetrating samples for 6 groups under simple random sampling
 
-dataset <- read.csv("E:/Ph.D in ESF/Research Work/Interpenetrating subsampling/Manuscript/Submission/Code Example/Groups_6_Binary.csv")
+dataset <- read.csv("~/Groups_6_Binary.csv")
 data <- data.frame(p1=c(dataset$Int1), p2=c(dataset$Int2), p3=c(dataset$Int3),p4=c(dataset$Int4),p5=c(dataset$Int5),p6=c(dataset$Int6))
 ##Setting up variables
 n= 300 ##number of total pixels
