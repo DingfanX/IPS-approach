@@ -1,8 +1,6 @@
 ##Interpenetrating subsamples for Stratified random sampling 
 ###Interpenetrating samples for 3 groups under Stratified random sampling 
-
-setwd("E:/Ph.D in ESF/Research Work/Interpenetrating subsampling")
-dataset <- read.csv( "Manuscript/Submission/Code Example/Group_3_STR.csv")
+dataset <- read.csv( "~/Group_3_for STR.csv")
 #Define strata, #6forest, #2Developed.#8Agriculture, #7Grass/Shrub
 for (i in 1:ncol(dataset)){
   dataset[,i][dataset[,i]==0] <- 1# Others
